@@ -1,0 +1,6 @@
+create table SONGS (
+    ID serial,
+    TITLE VARCHAR(100) NOT NULL,
+    LENGTH VARCHAR(100) NOT NULL,
+    ARTIST VARCHAR(100) NOT NULL
+);
